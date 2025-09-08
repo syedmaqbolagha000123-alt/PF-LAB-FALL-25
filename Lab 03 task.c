@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+  int main() {
+  	printf("Hello FASTIANS!\nToday's Topic is introduction to Github.");
+  	return 0;
+  }
+
+#include <stdio.h>
+ int main(){
+ 	int length;
+ 	int width;
+ 	printf("Enter length of rectangle:\n");
+ 	scanf("%d",&length);
+ 	printf("Enter width of rectangle:\n");
+ 	scanf("%d",& width);
+ 	// Calculate Area and Perimeter
+ 	 int Area = length*width;
+ 	int Perimeter = 2*(length+width);
+ 	//Output
+ 	printf("Area of rectangle = %d\n ",Area);
+ 	printf("Perimeter of rectangle = %d\n ",Perimeter);
+ 	return 0;
+ 	
+ }
