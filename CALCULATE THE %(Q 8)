@@ -1,0 +1,19 @@
+#include <stdio.h>
+  int main()
+  {
+  	int subject_One;
+  	int subject_Two;
+  	int subject_Three;
+  	float percentage;
+  	printf("Enter Marks of Subject One:");
+  	scanf("%d",&subject_One);
+  	printf("Enter Marks of Subject Two:");
+  	scanf("%d",&subject_Two);
+  	printf("Enter Marks of Subject Three:");
+  	scanf("%d",&subject_Three);
+  	
+  	percentage = (subject_One + subject_Two + subject_Three)/300.0*100.0;
+  	printf("your calculated Percentage: %.2f%% ",percentage);
+
+  	return 0;
+  }
