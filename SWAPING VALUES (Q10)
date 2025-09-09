@@ -1,0 +1,17 @@
+#include <stdio.h>
+    int main()
+{
+      int Number1,Number2,temp;
+      printf("Enter Number One :");
+      scanf("%d",&Number1);
+      printf("Enter Number Two :");
+      scanf("%d", &Number2);
+      // swaping Veriables 
+      temp = Number1;
+      Number1 = Number2;
+      Number2 = temp;
+      printf("\n After Swaping Values;\n");
+      printf("Number One = %d\n",Number1);
+      printf("Number Two = %d\n",Number2);
+      return 0;
+	}
