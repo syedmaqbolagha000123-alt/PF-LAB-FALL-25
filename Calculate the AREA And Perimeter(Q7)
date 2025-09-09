@@ -1,12 +1,6 @@
-
 #include <stdio.h>
-  int main() {
-  	printf("Hello FASTIANS!\nToday's Topic is introduction to Github.");
-  	return 0;
-  }
-
-#include <stdio.h>
- int main(){
+ int main()
+{
  	int length;
  	int width;
  	printf("Enter length of rectangle:\n");
