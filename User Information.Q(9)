@@ -1,0 +1,16 @@
+#include<stdio.h>
+   int main()
+   
+   {
+   	 char Name[50];
+   	 int Age;
+   	 printf("Enter your Name:");
+   	 // use _ (instead of space) for showing complete name 
+   	 fgets("%s", Name);
+   	 printf("Enter your Age:");
+   	 scanf("%d",& Age);
+   	  // Output with escape sequences
+   	 printf("\n\tHello %s!",Name);
+   	 printf("\n\tYou are %d years old.\n",Age);
+   	 return 0;
+   	 }
