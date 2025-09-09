@@ -1,0 +1,7 @@
+
+#include <stdio.h>
+  int main() {
+  	printf("Hello FASTIANS!\nToday's Topic is introduction to Github.");
+  	return 0;
+  }
+
